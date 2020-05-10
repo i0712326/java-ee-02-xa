@@ -10,7 +10,7 @@
 			<property name="hibernate.connection.url" value="jdbc:postgresql://pgdbsvr.itstikk.pro:5432/db01"/>
 			<property name="hibernate.default_schema" value="usr01"/>
 			<property name="hibernate.connection.username" value="usr01"/>
-			<property name="hibernate.connection.password" value="qf48d8uv"/>
+			<property name="hibernate.connection.password" value="password"/>
 			<property name="hibernate.default_catalog" value="db01"/>
 		</properties>
 	</persistence-unit>
