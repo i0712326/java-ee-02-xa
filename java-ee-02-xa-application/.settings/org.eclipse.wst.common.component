@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="java-ee-02-xa-application">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="java-ee-02-xa-web-0.0.1-SNAPSHOT.war" deploy-path="/" handle="module:/resource/java-ee-02-xa-web/java-ee-02-xa-web">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-ee-02-xa-ejb.jar" deploy-path="/" handle="module:/resource/java-ee-02-xa-ejb/java-ee-02-xa-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-ee-02-xa-jpa-00.jar" deploy-path="/lib" handle="module:/resource/java-ee-02-xa-jpa-00/java-ee-02-xa-jpa-00">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-ee-02-xa-jpa-01.jar" deploy-path="/lib" handle="module:/resource/java-ee-02-xa-jpa-01/java-ee-02-xa-jpa-01">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-ee-02-xa-ejb-00.jar" deploy-path="/" handle="module:/resource/java-ee-02-xa-ejb-00/java-ee-02-xa-ejb-00">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-ee-02-xa-ejb-01.jar" deploy-path="/" handle="module:/resource/java-ee-02-xa-ejb-01/java-ee-02-xa-ejb-01">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
